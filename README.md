@@ -6,7 +6,7 @@ Implementation and comparison between highly tuned CNN model and the ResNet50 an
 ## Instructions
 The following process was applied to the original ISIC2018 training dataset.
 1. Run the script separate.py, to separate malignant and benign images into separate folders, create the training and testing subsets.
-2. Run the script resize112.py to resize the images to 128x128 resolution.
+2. Run the script resize112.py to resize the images to 112x112 resolution.
 3. Run the script augment.py to apply data augmentation to the malignant class of the training subset.
 4. Open the jupyter notebook and run the code.
 
